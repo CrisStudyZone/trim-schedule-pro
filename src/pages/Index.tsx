@@ -1,12 +1,26 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import HeroSection from "@/components/HeroSection";
+import ActionButtons from "@/components/ActionButtons";
+import ServicesPreview from "@/components/ServicesPreview";
+import QuickStats from "@/components/QuickStats";
+import BottomNavigation from "@/components/BottomNavigation";
 
 const Index = () => {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-background">
-      <div className="text-center">
-        <h1 className="mb-4 text-4xl font-bold">Welcome to Your Blank App</h1>
-        <p className="text-xl text-muted-foreground">Start building your amazing project here!</p>
-      </div>
+    <div className="min-h-screen bg-background pb-20">
+      {/* Hero Section con logo y mensaje principal */}
+      <HeroSection />
+      
+      {/* Botones de acción principales */}
+      <ActionButtons />
+      
+      {/* Preview de servicios */}
+      <ServicesPreview />
+      
+      {/* Estadísticas de confianza */}
+      <QuickStats />
+      
+      {/* Navegación inferior fija */}
+      <BottomNavigation />
     </div>
   );
 };
