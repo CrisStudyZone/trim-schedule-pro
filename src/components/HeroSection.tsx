@@ -24,29 +24,29 @@ const HeroSection = () => {
         {/* Título y subtítulo */}
         <div className="space-y-4 animate-fade-in" style={{ animationDelay: '0.2s' }}>
           <h1 className="text-4xl font-bold text-foreground leading-tight">
-            Reserva tu corte
-            <span className="block text-primary font-extrabold">perfecto</span>
+            Panel
+            <span className="block text-primary font-extrabold">Profesional</span>
           </h1>
           <p className="text-lg text-muted-foreground leading-relaxed">
-            Conecta con las mejores barberías y agenda tu cita en segundos
+            Gestiona tu barbería de manera eficiente. Control total de turnos y clientes.
           </p>
         </div>
 
         {/* Estadísticas rápidas */}
         <div className="flex justify-center gap-8 animate-fade-in" style={{ animationDelay: '0.4s' }}>
           <div className="text-center">
-            <div className="text-2xl font-bold text-primary">150+</div>
-            <div className="text-sm text-muted-foreground">Barberías</div>
+            <div className="text-2xl font-bold text-primary">24</div>
+            <div className="text-sm text-muted-foreground">Turnos Hoy</div>
           </div>
           <div className="w-px bg-border" />
           <div className="text-center">
-            <div className="text-2xl font-bold text-primary">5.0</div>
-            <div className="text-sm text-muted-foreground">Rating</div>
+            <div className="text-2xl font-bold text-primary">156</div>
+            <div className="text-sm text-muted-foreground">Clientes</div>
           </div>
           <div className="w-px bg-border" />
           <div className="text-center">
-            <div className="text-2xl font-bold text-primary">24h</div>
-            <div className="text-sm text-muted-foreground">Servicio</div>
+            <div className="text-2xl font-bold text-primary">98%</div>
+            <div className="text-sm text-muted-foreground">Confirmados</div>
           </div>
         </div>
       </div>
